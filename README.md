@@ -101,18 +101,3 @@ El script `05_pruebas.sql` cubre:
 8. Ejecución de `fn_total_venta` y `fn_calcular_iva`.
 
 > Los mensajes de las pruebas 4 a 6 se muestran con `DBMS_OUTPUT`, por lo que hay que tener abierta la salida de DBMS_OUTPUT en el cliente SQL.
-
-## Evidencias
-
-Las capturas de las pruebas están en la carpeta `evidencias/`:
-
-| Archivo | Prueba |
-|---|---|
-| `evidencias/01_tablas.png` | Tablas con los datos insertados |
-| `evidencias/02_vistas.png` | Consulta de las vistas |
-| `evidencias/03_sp_venta_correcta.png` | Venta correcta con el procedimiento |
-| `evidencias/04_sp_stock_insuficiente.png` | Error por stock insuficiente |
-| `evidencias/05_sp_cliente_inexistente.png` | Error por cliente inexistente |
-| `evidencias/06_sp_producto_inexistente.png` | Error por producto inexistente |
-| `evidencias/07_verificacion.png` | Verificación de ventas rechazadas |
-| `evidencias/08_funciones.png` | Ejecución de las dos funciones |
